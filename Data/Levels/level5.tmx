@@ -1675,9 +1675,9 @@
    <tile gid="231"/>
    <tile gid="231"/>
    <tile gid="195"/>
-   <tile gid="231"/>
-   <tile gid="231"/>
-   <tile gid="232"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
    <tile gid="81"/>
    <tile gid="0"/>
    <tile gid="0"/>

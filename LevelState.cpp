@@ -2,8 +2,6 @@
 
 LevelState::LevelState()
 {
-
-
     sfge::SpriteNode* background = new sfge::SpriteNode("background", "background.png");
     background->setZ(-10);
     addNode(background);

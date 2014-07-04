@@ -1,0 +1,17 @@
+<levels>
+	<terra>
+		<level name="jungle" difficulty="easy" file = "level5.tmx" unlocked = "true"/>
+		<level name="forest" difficulty="medium" file = "level5.tmx" unlocked = "false"/>
+		<level name="barn" difficulty="hard" file = "level5.tmx" unlocked = "false"/>
+	</terra>
+	<desert>
+		<level name="jungle" difficulty="1" file = "level5.tmx" unlocked = "false"/>
+		<level name="jungle" difficulty="2" file = "level5.tmx" unlocked = "false"/>
+		<level name="jungle" difficulty="3" file = "level5.tmx" unlocked = "false"/>
+	</desert>
+	<icy>
+		<level name="jungle" difficulty="1" file = "level5.tmx" unlocked = "false"/>
+		<level name="jungle" difficulty="2" file = "level5.tmx" unlocked = "false"/>
+		<level name="jungle" difficulty="3" file = "level5.tmx" unlocked = "false"/>
+	</icy>
+</levels>

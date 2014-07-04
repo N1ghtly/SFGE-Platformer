@@ -6,15 +6,15 @@ LevelButton::LevelButton(const std::string& file, const std::string& name, const
 {
     nameLabel = new sfge::Label(name, x, y);
     nameLabel->setFontSize(17);
-    nameLabel->setFont(rm->getFont("scribble.TTF"));
+    nameLabel->setFont(rm->getFont("scribble.ttf"));
     nameLabel->setCenterAsOrigin();
     difficultyLabel = new sfge::Label(difficulty, x, y-30);
     difficultyLabel->setFontSize(17);
-    difficultyLabel->setFont(rm->getFont("scribble.TTF"));
+    difficultyLabel->setFont(rm->getFont("scribble.ttf"));
     difficultyLabel->setCenterAsOrigin();
     bestTimeLabel = new sfge::Label("test", x, y+30);
     bestTimeLabel->setFontSize(17);
-    bestTimeLabel->setFont(rm->getFont("scribble.TTF"));
+    bestTimeLabel->setFont(rm->getFont("scribble.ttf"));
     bestTimeLabel->setCenterAsOrigin();
 
     sf::RectangleShape* f = new sf::RectangleShape(sf::Vector2f(200, 200));

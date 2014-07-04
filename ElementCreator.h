@@ -7,7 +7,7 @@ namespace ElementCreator
     static sfge::LabelButton* makeButton(const std::string& label, int x, int y, bool center = true, int fontSize = 35)
     {
         sfge::LabelButton* button = new sfge::LabelButton(label, x, y);
-        button->setFont(rm->getFont("scribble.TTF"));
+        button->setFont(rm->getFont("scribble.ttf"));
         button->setFontSize(fontSize);
         if(center)
             button->setCenterAsOrigin();        button->setColor(sf::Color::Black);
@@ -17,7 +17,7 @@ namespace ElementCreator
     static sfge::Label* makeTitle(const std::string& label, int x, int y, bool center = true)
     {
         sfge::Label* button = new sfge::Label(label, x, y);
-        button->setFont(rm->getFont("scribble.TTF"));
+        button->setFont(rm->getFont("scribble.ttf"));
         button->setFontSize(55);
         if(center)
             button->setCenterAsOrigin();        button->setColor(sf::Color::Black);
@@ -27,7 +27,7 @@ namespace ElementCreator
     static sfge::Label* makeLabel(const std::string& label, int x, int y, bool center = true)
     {
         sfge::Label* button = new sfge::Label(label, x, y);
-        button->setFont(rm->getFont("scribble.TTF"));
+        button->setFont(rm->getFont("scribble.ttf"));
         button->setFontSize(30);
         if(center)
             button->setCenterAsOrigin();        button->setColor(sf::Color::Black);
