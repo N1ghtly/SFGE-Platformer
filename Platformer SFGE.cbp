@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Platformer SFGE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="States/;Controllers/;Game Objects/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Platformer SFGE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="../SFGE/include" />
+				</Compiler>
+				<Linker>
+					<Add library="SFGE" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-audio-d" />
+					<Add library="sfml-system-d" />
+					<Add directory="../SFGE/bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Platformer SFGE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="SFGE" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-system" />
+					<Add directory="../SFGE/bin/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add directory="../SFGE/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="/usr/local/lib" />
+		</Linker>
+		<Unit filename="Bullet.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Bullet.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Cannon.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Cannon.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Coin.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Coin.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Constants.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="ControlState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="ControlState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="ElementCreator.h" />
+		<Unit filename="Entity.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Entity.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="FallingTile.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="FallingTile.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="FixedMovementEntity.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="FixedMovementEntity.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="GameState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="GameState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="InvisibleTile.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="InvisibleTile.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="JoystickControlState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="JoystickControlState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="JoystickController.cpp">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="JoystickController.h">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="KeyboardControlState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="KeyboardControlState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="KeyboardController.cpp">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="KeyboardController.h">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.h" />
+		<Unit filename="LevelButton.cpp" />
+		<Unit filename="LevelButton.h" />
+		<Unit filename="LevelState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="LevelState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="MenuState.cpp">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="MenuState.h">
+			<Option virtualFolder="States/" />
+		</Unit>
+		<Unit filename="MovingPlatform.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="MovingPlatform.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="PlayerController.cpp">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="PlayerController.h">
+			<Option virtualFolder="Controllers/" />
+		</Unit>
+		<Unit filename="Tile.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Tile.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Trampoline.cpp">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="Trampoline.h">
+			<Option virtualFolder="Game Objects/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="pugiconfig.hpp" />
+		<Unit filename="pugixml.cpp" />
+		<Unit filename="pugixml.hpp" />
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

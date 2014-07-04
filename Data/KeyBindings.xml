@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<bindings>
+	<input_type name="keyboard" />
+	<key name="jump" code="57" />
+	<key name="left" code="71" />
+	<key name="right" code="72" />
+	<key name="up" code="73" />
+	<button code="3" />
+</bindings>

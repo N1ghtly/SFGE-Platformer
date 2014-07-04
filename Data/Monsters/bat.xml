@@ -1,0 +1,11 @@
+<entity name="bat" sprite="bat.png" speed="1">
+	<size width="29" height = "24"/>
+	<leftanimation duration = "0.3">
+		<frame left="0" top="24"/>
+		<frame left="29" top="24"/>
+	</leftanimation >
+	<rightanimation duration = "0.3">
+		<frame left="0" top="0"/>
+		<frame left="29" top="0"/>
+	</rightanimation>
+</entity>
